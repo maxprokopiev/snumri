@@ -117,6 +117,23 @@ main li {
     padding: 17px 0 0;
 }
 
+main .pictures {
+    margin-left: 80px;
+}
+
+main .pictures .picture, .grid-sizer {
+    width: 30%;
+}
+
+main .pictures .picture {
+    margin-bottom: 10px;
+}
+
+main .pictures .picture img {
+    height: 100%;
+    width: 100%;
+}
+
 .social-links a {
     box-shadow: none;
 }
