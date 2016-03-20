@@ -163,6 +163,10 @@ footer {
         font-size: 55px;
     }
 
+    main .title p {
+        padding-right: 80px;
+    }
+
     .social-links {
         margin-top: 65px;
         margin-left: 370px;
