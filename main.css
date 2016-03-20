@@ -80,7 +80,23 @@ main p {
     text-align: center;
 }
 
-main p a {
+main .links {
+  margin: 25px 0 25px 100px;
+}
+
+main .links p {
+    text-align: left;
+}
+
+main .links p span {
+    font-size: 10px;
+    display: block;
+    float: left;
+    margin-top: 6px;
+    margin-right: 6px;
+}
+
+main a {
     text-decoration: none;
     box-shadow: inset 0 -2px 0 -1px rgba(0, 0, 0, 0.15);
 }
@@ -89,6 +105,11 @@ main p a:hover {
     background-color: rgba(0, 0, 0, 0.03);
 }
 
+main p.location {
+    margin-bottom: 25px;
+}
+
+
 main ul {
     padding-left: 50px;
 }
@@ -96,6 +117,10 @@ main ul {
 main li {
     list-style: initial;
     padding: 17px 0 0;
+}
+
+.social-links a {
+    box-shadow: none;
 }
 
 .social-links {
@@ -136,11 +161,6 @@ footer {
     main p, li {
         padding: 10px;
         font-size: 55px;
-    }
-
-    main p.middle {
-        padding-top: 50px;
-        padding-bottom: 50px;
     }
 
     .social-links {
