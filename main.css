@@ -44,6 +44,10 @@ table {
 }
 /* End of Eric Meyer's CSS Reset */
 
+body {
+    font-family: "Ubuntu Condensed", sans-serif;
+}
+
 .wrapper {
     width: 705px;
     margin: 0 auto;
@@ -51,14 +55,12 @@ table {
 
 header h1 {
     font-size: 40px;
-    text-transform: lowercase;
+    text-transform: uppercase;
     font-weight: 300;
-    font-family: sans-serif;
     text-align: center;
-    padding: 25px;
 }
 
-img.photo {
+header img.photo {
     width: 35%;
     border-radius: 50%;
     margin-left: 235px;
@@ -69,6 +71,10 @@ img.photo {
 main .text {
     width: 463px;
     margin-left: 142px;
+}
+
+main .title {
+    margin-right: 15px;
 }
 
 main p, li {
