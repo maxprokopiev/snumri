@@ -129,6 +129,10 @@ main .pictures .picture {
     margin-bottom: 10px;
 }
 
+main .pictures .picture a {
+    box-shadow: none;
+}
+
 main .pictures .picture img {
     height: 100%;
     width: 100%;
@@ -149,8 +153,8 @@ main .pictures .picture img {
 }
 
 footer {
-    margin: 28px 0 15px 250px;
-    font-size: 20px;
+    margin: 28px 0 15px 300px;
+    font-size: 15px;
 }
 
 
