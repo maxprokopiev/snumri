@@ -207,8 +207,27 @@ footer {
         width: 100%;
     }
 
-    img.photo {
-        margin-left: 300px;
+    header .info .header-text {
+        margin-left: 343px;
+    }
+
+    header img.photo {
+        margin-left: 310px;
+    }
+
+    header .info .email {
+        font-size: 30px;
+        margin-top: 55px;
+    }
+
+    header .info .social-links {
+        margin: 0;
+        top: 45px;
+        left: 90px;
+    }
+
+    header .info .social-links a img {
+        width: 13%;
     }
 
     main .text {
@@ -225,12 +244,11 @@ footer {
         padding-right: 80px;
     }
 
-    .social-links {
-        margin-top: 65px;
-        margin-left: 370px;
+    main > .social-links {
+        margin-left: 350px;
     }
 
-    .social-links img {
+    main > .social-links img {
         width: 15%;
         margin-left: 15px;
     }
