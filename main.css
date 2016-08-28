@@ -81,11 +81,12 @@ header .info .social-links, .header-text, .email {
 header .info .social-links {
     position: absolute;
     left: 120px;
-    top: 26px;
+    top: 20px;
+    width: 145px;
 }
 
 header .info .social-links a img {
-    width: 8%;
+    width: 25%;
     margin-right: 7px;
 }
 
