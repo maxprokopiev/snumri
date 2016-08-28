@@ -224,11 +224,13 @@ footer {
     header .info .social-links {
         margin: 0;
         top: 45px;
-        left: 90px;
+        left: 77px;
+        width: 240px;
     }
 
     header .info .social-links a img {
-        width: 13%;
+        width: 22%;
+        margin-right: 25px;
     }
 
     main .text {
