@@ -17,7 +17,7 @@
     <div class="wrapper">
       <header>
         <a href="about.html">
-          <img class="photo" src="images/about.jpg" alt="" />
+          <img class="photo" src="images/about.png" alt="" />
         </a>
         <div class="info">
           <div class="social-links">
@@ -36,7 +36,7 @@
       </header>
 
       <main>
-        <div class="pictures">
+        <div class="pictures" style="display:none">
           <div class="grid-sizer"></div>
           <div class="picture"><a target="_blank" href="https://www.instagram.com/p/BCLrNOrS3zS/"><img src="images/pictures/36.jpg" /></a></div>
           <div class="picture"><a target="_blank" href="https://www.instagram.com/p/BAdJiz9S3_M/"><img src="images/pictures/35.jpg" /></a></div>
@@ -86,14 +86,16 @@
   </body>
 
   <script>
-    var $grid = $(".pictures").imagesLoaded(function() {
-      $grid.masonry({
-        "itemSelector": ".picture",
-        "columnWidth": ".grid-sizer",
-        "percentPosition": true,
-        "gutter": 10
-      });
-    });
+   var $grid = $(".pictures");
+   $grid.imagesLoaded(function() {
+     $grid.show();
+     $grid.masonry({
+       "itemSelector": ".picture",
+       "columnWidth": ".grid-sizer",
+       "percentPosition": true,
+       "gutter": 10
+     });
+   });
   </script>
 
   <script>
